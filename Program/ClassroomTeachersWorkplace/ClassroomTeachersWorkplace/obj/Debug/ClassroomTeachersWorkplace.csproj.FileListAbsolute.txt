@@ -1,0 +1,105 @@
+G:\Files\ЗаконченыеПроекты\3КУРС\4course\Дипломы\Дубровский\Программа Дубровского\ClassroomTeachersWorkplace\ClassroomTeachersWorkplace\bin\Debug\ClassroomTeachersWorkplace.exe.config
+G:\Files\ЗаконченыеПроекты\3КУРС\4course\Дипломы\Дубровский\Программа Дубровского\ClassroomTeachersWorkplace\ClassroomTeachersWorkplace\bin\Debug\ClassroomTeachersWorkplace.exe
+G:\Files\ЗаконченыеПроекты\3КУРС\4course\Дипломы\Дубровский\Программа Дубровского\ClassroomTeachersWorkplace\ClassroomTeachersWorkplace\bin\Debug\ClassroomTeachersWorkplace.pdb
+G:\Files\ЗаконченыеПроекты\3КУРС\4course\Дипломы\Дубровский\Программа Дубровского\ClassroomTeachersWorkplace\ClassroomTeachersWorkplace\obj\Debug\ClassroomTeachersWorkplace.csproj.AssemblyReference.cache
+G:\Files\ЗаконченыеПроекты\3КУРС\4course\Дипломы\Дубровский\Программа Дубровского\ClassroomTeachersWorkplace\ClassroomTeachersWorkplace\obj\Debug\ClassroomTeachersWorkplace.csproj.SuggestedBindingRedirects.cache
+G:\Files\ЗаконченыеПроекты\3КУРС\4course\Дипломы\Дубровский\Программа Дубровского\ClassroomTeachersWorkplace\ClassroomTeachersWorkplace\obj\Debug\MainWindow.g.cs
+G:\Files\ЗаконченыеПроекты\3КУРС\4course\Дипломы\Дубровский\Программа Дубровского\ClassroomTeachersWorkplace\ClassroomTeachersWorkplace\obj\Debug\App.g.cs
+G:\Files\ЗаконченыеПроекты\3КУРС\4course\Дипломы\Дубровский\Программа Дубровского\ClassroomTeachersWorkplace\ClassroomTeachersWorkplace\obj\Debug\ClassroomTeachersWorkplace_MarkupCompile.cache
+G:\Files\ЗаконченыеПроекты\3КУРС\4course\Дипломы\Дубровский\Программа Дубровского\ClassroomTeachersWorkplace\ClassroomTeachersWorkplace\obj\Debug\ClassroomTeachersWorkplace_MarkupCompile.lref
+G:\Files\ЗаконченыеПроекты\3КУРС\4course\Дипломы\Дубровский\Программа Дубровского\ClassroomTeachersWorkplace\ClassroomTeachersWorkplace\obj\Debug\MainWindow.baml
+G:\Files\ЗаконченыеПроекты\3КУРС\4course\Дипломы\Дубровский\Программа Дубровского\ClassroomTeachersWorkplace\ClassroomTeachersWorkplace\obj\Debug\ClassroomTeachersWorkplace.g.resources
+G:\Files\ЗаконченыеПроекты\3КУРС\4course\Дипломы\Дубровский\Программа Дубровского\ClassroomTeachersWorkplace\ClassroomTeachersWorkplace\obj\Debug\ClassroomTeachersWorkplace.Properties.Resources.resources
+G:\Files\ЗаконченыеПроекты\3КУРС\4course\Дипломы\Дубровский\Программа Дубровского\ClassroomTeachersWorkplace\ClassroomTeachersWorkplace\obj\Debug\ClassroomTeachersWorkplace.csproj.GenerateResource.cache
+G:\Files\ЗаконченыеПроекты\3КУРС\4course\Дипломы\Дубровский\Программа Дубровского\ClassroomTeachersWorkplace\ClassroomTeachersWorkplace\obj\Debug\ClassroomTeachersWorkplace.csproj.CoreCompileInputs.cache
+G:\Files\ЗаконченыеПроекты\3КУРС\4course\Дипломы\Дубровский\Программа Дубровского\ClassroomTeachersWorkplace\ClassroomTeachersWorkplace\obj\Debug\ClassroomTeachersWorkplace.exe
+G:\Files\ЗаконченыеПроекты\3КУРС\4course\Дипломы\Дубровский\Программа Дубровского\ClassroomTeachersWorkplace\ClassroomTeachersWorkplace\obj\Debug\ClassroomTeachersWorkplace.pdb
+G:\Files\ЗаконченыеПроекты\3КУРС\4course\Дипломы\Дубровский\Программа Дубровского\ClassroomTeachersWorkplace\ClassroomTeachersWorkplace\bin\Debug\MaterialDesignColors.dll
+G:\Files\ЗаконченыеПроекты\3КУРС\4course\Дипломы\Дубровский\Программа Дубровского\ClassroomTeachersWorkplace\ClassroomTeachersWorkplace\bin\Debug\MaterialDesignThemes.Wpf.dll
+G:\Files\ЗаконченыеПроекты\3КУРС\4course\Дипломы\Дубровский\Программа Дубровского\ClassroomTeachersWorkplace\ClassroomTeachersWorkplace\bin\Debug\Microsoft.Xaml.Behaviors.dll
+G:\Files\ЗаконченыеПроекты\3КУРС\4course\Дипломы\Дубровский\Программа Дубровского\ClassroomTeachersWorkplace\ClassroomTeachersWorkplace\bin\Debug\MaterialDesignColors.pdb
+G:\Files\ЗаконченыеПроекты\3КУРС\4course\Дипломы\Дубровский\Программа Дубровского\ClassroomTeachersWorkplace\ClassroomTeachersWorkplace\bin\Debug\MaterialDesignThemes.Wpf.pdb
+G:\Files\ЗаконченыеПроекты\3КУРС\4course\Дипломы\Дубровский\Программа Дубровского\ClassroomTeachersWorkplace\ClassroomTeachersWorkplace\bin\Debug\MaterialDesignThemes.Wpf.xml
+G:\Files\ЗаконченыеПроекты\3КУРС\4course\Дипломы\Дубровский\Программа Дубровского\ClassroomTeachersWorkplace\ClassroomTeachersWorkplace\bin\Debug\Microsoft.Xaml.Behaviors.pdb
+G:\Files\ЗаконченыеПроекты\3КУРС\4course\Дипломы\Дубровский\Программа Дубровского\ClassroomTeachersWorkplace\ClassroomTeachersWorkplace\bin\Debug\Microsoft.Xaml.Behaviors.xml
+G:\Files\ЗаконченыеПроекты\3КУРС\4course\Дипломы\Дубровский\Программа Дубровского\ClassroomTeachersWorkplace\ClassroomTeachersWorkplace\obj\Debug\App.baml
+G:\Files\ЗаконченыеПроекты\3КУРС\4course\Дипломы\Дубровский\Программа Дубровского\ClassroomTeachersWorkplace\ClassroomTeachersWorkplace\obj\Debug\ClassroomTeachersWorkplace.csproj.CopyComplete
+G:\Files\ЗаконченыеПроекты\3КУРС\4course\Дипломы\Дубровский\Программа Дубровского\ClassroomTeachersWorkplace\ClassroomTeachersWorkplace\bin\Debug\DB.mdf
+G:\Files\ЗаконченыеПроекты\3КУРС\4course\Дипломы\Дубровский\Программа Дубровского\ClassroomTeachersWorkplace\ClassroomTeachersWorkplace\bin\Debug\DB_log.ldf
+G:\Files\ЗаконченыеПроекты\3КУРС\4course\Дипломы\Дубровский\Программа Дубровского\ClassroomTeachersWorkplace\ClassroomTeachersWorkplace\obj\Debug\ClassroomTeachersWorkplace_Content.g.cs
+G:\Files\ЗаконченыеПроекты\3КУРС\4course\Дипломы\Дубровский\Программа Дубровского\ClassroomTeachersWorkplace\ClassroomTeachersWorkplace\obj\Debug\Предметы.g.cs
+G:\Files\ЗаконченыеПроекты\3КУРС\4course\Дипломы\Дубровский\Программа Дубровского\ClassroomTeachersWorkplace\ClassroomTeachersWorkplace\obj\Debug\Предметы.baml
+G:\Files\ЗаконченыеПроекты\3КУРС\4course\Дипломы\Дубровский\Программа Дубровского\ClassroomTeachersWorkplace\ClassroomTeachersWorkplace\obj\Debug\Отметки.g.cs
+G:\Files\ЗаконченыеПроекты\3КУРС\4course\Дипломы\Дубровский\Программа Дубровского\ClassroomTeachersWorkplace\ClassroomTeachersWorkplace\obj\Debug\Отметки.baml
+G:\Files\ЗаконченыеПроекты\3КУРС\4course\Дипломы\Дубровский\Программа Дубровского\ClassroomTeachersWorkplace\ClassroomTeachersWorkplace\obj\Debug\Учащийся.g.cs
+G:\Files\ЗаконченыеПроекты\3КУРС\4course\Дипломы\Дубровский\Программа Дубровского\ClassroomTeachersWorkplace\ClassroomTeachersWorkplace\obj\Debug\Учащийся.baml
+G:\Files\ЗаконченыеПроекты\3КУРС\4course\Дипломы\Дубровский\Программа Дубровского\ClassroomTeachersWorkplace\ClassroomTeachersWorkplace\obj\Debug\Пропуски.g.cs
+G:\Files\ЗаконченыеПроекты\3КУРС\4course\Дипломы\Дубровский\Программа Дубровского\ClassroomTeachersWorkplace\ClassroomTeachersWorkplace\obj\Debug\Пропуски.baml
+G:\Files\ЗаконченыеПроекты\3КУРС\4course\Дипломы\Дубровский\Программа Дубровского\ClassroomTeachersWorkplace\ClassroomTeachersWorkplace\obj\Debug\Справки.g.cs
+G:\Files\ЗаконченыеПроекты\3КУРС\4course\Дипломы\Дубровский\Программа Дубровского\ClassroomTeachersWorkplace\ClassroomTeachersWorkplace\obj\Debug\Справки.baml
+G:\Files\ЗаконченыеПроекты\3КУРС\4course\Дипломы\Дубровский\Программа Дубровского\ClassroomTeachersWorkplace\ClassroomTeachersWorkplace\obj\Debug\Родители.g.cs
+G:\Files\ЗаконченыеПроекты\3КУРС\4course\Дипломы\Дубровский\Программа Дубровского\ClassroomTeachersWorkplace\ClassroomTeachersWorkplace\obj\Debug\Родители.baml
+G:\Files\ЗаконченыеПроекты\3КУРС\4course\Дипломы\Дубровский\Программа Дубровского\ClassroomTeachersWorkplace\ClassroomTeachersWorkplace\obj\Debug\Собрание.g.cs
+G:\Files\ЗаконченыеПроекты\3КУРС\4course\Дипломы\Дубровский\Программа Дубровского\ClassroomTeachersWorkplace\ClassroomTeachersWorkplace\obj\Debug\Собрание.baml
+G:\Files\ЗаконченыеПроекты\3КУРС\4course\Дипломы\Дубровский\Программа Дубровского\ClassroomTeachersWorkplace\ClassroomTeachersWorkplace\bin\Debug\EPPlus.dll
+G:\Files\ЗаконченыеПроекты\3КУРС\4course\Дипломы\Дубровский\Программа Дубровского\ClassroomTeachersWorkplace\ClassroomTeachersWorkplace\bin\Debug\EPPlus.Interfaces.dll
+G:\Files\ЗаконченыеПроекты\3КУРС\4course\Дипломы\Дубровский\Программа Дубровского\ClassroomTeachersWorkplace\ClassroomTeachersWorkplace\bin\Debug\EPPlus.System.Drawing.dll
+G:\Files\ЗаконченыеПроекты\3КУРС\4course\Дипломы\Дубровский\Программа Дубровского\ClassroomTeachersWorkplace\ClassroomTeachersWorkplace\bin\Debug\Microsoft.IO.RecyclableMemoryStream.dll
+G:\Files\ЗаконченыеПроекты\3КУРС\4course\Дипломы\Дубровский\Программа Дубровского\ClassroomTeachersWorkplace\ClassroomTeachersWorkplace\bin\Debug\System.Buffers.dll
+G:\Files\ЗаконченыеПроекты\3КУРС\4course\Дипломы\Дубровский\Программа Дубровского\ClassroomTeachersWorkplace\ClassroomTeachersWorkplace\bin\Debug\System.ComponentModel.Annotations.dll
+G:\Files\ЗаконченыеПроекты\3КУРС\4course\Дипломы\Дубровский\Программа Дубровского\ClassroomTeachersWorkplace\ClassroomTeachersWorkplace\bin\Debug\System.Memory.dll
+G:\Files\ЗаконченыеПроекты\3КУРС\4course\Дипломы\Дубровский\Программа Дубровского\ClassroomTeachersWorkplace\ClassroomTeachersWorkplace\bin\Debug\System.Numerics.Vectors.dll
+G:\Files\ЗаконченыеПроекты\3КУРС\4course\Дипломы\Дубровский\Программа Дубровского\ClassroomTeachersWorkplace\ClassroomTeachersWorkplace\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+G:\Files\ЗаконченыеПроекты\3КУРС\4course\Дипломы\Дубровский\Программа Дубровского\ClassroomTeachersWorkplace\ClassroomTeachersWorkplace\bin\Debug\EPPlus.xml
+G:\Files\ЗаконченыеПроекты\3КУРС\4course\Дипломы\Дубровский\Программа Дубровского\ClassroomTeachersWorkplace\ClassroomTeachersWorkplace\bin\Debug\Microsoft.IO.RecyclableMemoryStream.xml
+G:\Files\ЗаконченыеПроекты\3КУРС\4course\Дипломы\Дубровский\Программа Дубровского\ClassroomTeachersWorkplace\ClassroomTeachersWorkplace\bin\Debug\System.Buffers.xml
+G:\Files\ЗаконченыеПроекты\3КУРС\4course\Дипломы\Дубровский\Программа Дубровского\ClassroomTeachersWorkplace\ClassroomTeachersWorkplace\bin\Debug\System.Memory.xml
+G:\Files\ЗаконченыеПроекты\3КУРС\4course\Дипломы\Дубровский\Программа Дубровского\ClassroomTeachersWorkplace\ClassroomTeachersWorkplace\bin\Debug\System.Numerics.Vectors.xml
+G:\Files\ЗаконченыеПроекты\3КУРС\4course\Дипломы\Дубровский\Программа Дубровского\ClassroomTeachersWorkplace\ClassroomTeachersWorkplace\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+G:\Files\ЗаконченыеПроекты\3КУРС\4course\Дипломы\Дубровский\Программа Дубровского\ClassroomTeachersWorkplace\ClassroomTeachersWorkplace\obj\Debug\Класс.g.cs
+G:\Files\ЗаконченыеПроекты\3КУРС\4course\Дипломы\Дубровский\Программа Дубровского\ClassroomTeachersWorkplace\ClassroomTeachersWorkplace\obj\Debug\Класс.baml
+G:\GitHub\The-classroom-teacher-s-automated-workplace\Program\ClassroomTeachersWorkplace\ClassroomTeachersWorkplace\bin\Debug\DB.mdf
+G:\GitHub\The-classroom-teacher-s-automated-workplace\Program\ClassroomTeachersWorkplace\ClassroomTeachersWorkplace\bin\Debug\DB_log.ldf
+G:\GitHub\The-classroom-teacher-s-automated-workplace\Program\ClassroomTeachersWorkplace\ClassroomTeachersWorkplace\bin\Debug\ClassroomTeachersWorkplace.exe.config
+G:\GitHub\The-classroom-teacher-s-automated-workplace\Program\ClassroomTeachersWorkplace\ClassroomTeachersWorkplace\bin\Debug\ClassroomTeachersWorkplace.exe
+G:\GitHub\The-classroom-teacher-s-automated-workplace\Program\ClassroomTeachersWorkplace\ClassroomTeachersWorkplace\bin\Debug\ClassroomTeachersWorkplace.pdb
+G:\GitHub\The-classroom-teacher-s-automated-workplace\Program\ClassroomTeachersWorkplace\ClassroomTeachersWorkplace\bin\Debug\MaterialDesignColors.dll
+G:\GitHub\The-classroom-teacher-s-automated-workplace\Program\ClassroomTeachersWorkplace\ClassroomTeachersWorkplace\bin\Debug\MaterialDesignThemes.Wpf.dll
+G:\GitHub\The-classroom-teacher-s-automated-workplace\Program\ClassroomTeachersWorkplace\ClassroomTeachersWorkplace\bin\Debug\Microsoft.Xaml.Behaviors.dll
+G:\GitHub\The-classroom-teacher-s-automated-workplace\Program\ClassroomTeachersWorkplace\ClassroomTeachersWorkplace\bin\Debug\MaterialDesignColors.pdb
+G:\GitHub\The-classroom-teacher-s-automated-workplace\Program\ClassroomTeachersWorkplace\ClassroomTeachersWorkplace\bin\Debug\MaterialDesignThemes.Wpf.pdb
+G:\GitHub\The-classroom-teacher-s-automated-workplace\Program\ClassroomTeachersWorkplace\ClassroomTeachersWorkplace\bin\Debug\MaterialDesignThemes.Wpf.xml
+G:\GitHub\The-classroom-teacher-s-automated-workplace\Program\ClassroomTeachersWorkplace\ClassroomTeachersWorkplace\bin\Debug\Microsoft.Xaml.Behaviors.pdb
+G:\GitHub\The-classroom-teacher-s-automated-workplace\Program\ClassroomTeachersWorkplace\ClassroomTeachersWorkplace\bin\Debug\Microsoft.Xaml.Behaviors.xml
+G:\GitHub\The-classroom-teacher-s-automated-workplace\Program\ClassroomTeachersWorkplace\ClassroomTeachersWorkplace\obj\Debug\ClassroomTeachersWorkplace.csproj.AssemblyReference.cache
+G:\GitHub\The-classroom-teacher-s-automated-workplace\Program\ClassroomTeachersWorkplace\ClassroomTeachersWorkplace\obj\Debug\ClassroomTeachersWorkplace.csproj.SuggestedBindingRedirects.cache
+G:\GitHub\The-classroom-teacher-s-automated-workplace\Program\ClassroomTeachersWorkplace\ClassroomTeachersWorkplace\obj\Debug\MainWindow.g.cs
+G:\GitHub\The-classroom-teacher-s-automated-workplace\Program\ClassroomTeachersWorkplace\ClassroomTeachersWorkplace\obj\Debug\Класс.g.cs
+G:\GitHub\The-classroom-teacher-s-automated-workplace\Program\ClassroomTeachersWorkplace\ClassroomTeachersWorkplace\obj\Debug\Отметки.g.cs
+G:\GitHub\The-classroom-teacher-s-automated-workplace\Program\ClassroomTeachersWorkplace\ClassroomTeachersWorkplace\obj\Debug\Предметы.g.cs
+G:\GitHub\The-classroom-teacher-s-automated-workplace\Program\ClassroomTeachersWorkplace\ClassroomTeachersWorkplace\obj\Debug\Пропуски.g.cs
+G:\GitHub\The-classroom-teacher-s-automated-workplace\Program\ClassroomTeachersWorkplace\ClassroomTeachersWorkplace\obj\Debug\Родители.g.cs
+G:\GitHub\The-classroom-teacher-s-automated-workplace\Program\ClassroomTeachersWorkplace\ClassroomTeachersWorkplace\obj\Debug\Собрание.g.cs
+G:\GitHub\The-classroom-teacher-s-automated-workplace\Program\ClassroomTeachersWorkplace\ClassroomTeachersWorkplace\obj\Debug\Справки.g.cs
+G:\GitHub\The-classroom-teacher-s-automated-workplace\Program\ClassroomTeachersWorkplace\ClassroomTeachersWorkplace\obj\Debug\Учащийся.g.cs
+G:\GitHub\The-classroom-teacher-s-automated-workplace\Program\ClassroomTeachersWorkplace\ClassroomTeachersWorkplace\obj\Debug\App.g.cs
+G:\GitHub\The-classroom-teacher-s-automated-workplace\Program\ClassroomTeachersWorkplace\ClassroomTeachersWorkplace\obj\Debug\ClassroomTeachersWorkplace_Content.g.cs
+G:\GitHub\The-classroom-teacher-s-automated-workplace\Program\ClassroomTeachersWorkplace\ClassroomTeachersWorkplace\obj\Debug\ClassroomTeachersWorkplace_MarkupCompile.cache
+G:\GitHub\The-classroom-teacher-s-automated-workplace\Program\ClassroomTeachersWorkplace\ClassroomTeachersWorkplace\obj\Debug\ClassroomTeachersWorkplace_MarkupCompile.lref
+G:\GitHub\The-classroom-teacher-s-automated-workplace\Program\ClassroomTeachersWorkplace\ClassroomTeachersWorkplace\obj\Debug\App.baml
+G:\GitHub\The-classroom-teacher-s-automated-workplace\Program\ClassroomTeachersWorkplace\ClassroomTeachersWorkplace\obj\Debug\MainWindow.baml
+G:\GitHub\The-classroom-teacher-s-automated-workplace\Program\ClassroomTeachersWorkplace\ClassroomTeachersWorkplace\obj\Debug\Класс.baml
+G:\GitHub\The-classroom-teacher-s-automated-workplace\Program\ClassroomTeachersWorkplace\ClassroomTeachersWorkplace\obj\Debug\Отметки.baml
+G:\GitHub\The-classroom-teacher-s-automated-workplace\Program\ClassroomTeachersWorkplace\ClassroomTeachersWorkplace\obj\Debug\Предметы.baml
+G:\GitHub\The-classroom-teacher-s-automated-workplace\Program\ClassroomTeachersWorkplace\ClassroomTeachersWorkplace\obj\Debug\Пропуски.baml
+G:\GitHub\The-classroom-teacher-s-automated-workplace\Program\ClassroomTeachersWorkplace\ClassroomTeachersWorkplace\obj\Debug\Родители.baml
+G:\GitHub\The-classroom-teacher-s-automated-workplace\Program\ClassroomTeachersWorkplace\ClassroomTeachersWorkplace\obj\Debug\Собрание.baml
+G:\GitHub\The-classroom-teacher-s-automated-workplace\Program\ClassroomTeachersWorkplace\ClassroomTeachersWorkplace\obj\Debug\Справки.baml
+G:\GitHub\The-classroom-teacher-s-automated-workplace\Program\ClassroomTeachersWorkplace\ClassroomTeachersWorkplace\obj\Debug\Учащийся.baml
+G:\GitHub\The-classroom-teacher-s-automated-workplace\Program\ClassroomTeachersWorkplace\ClassroomTeachersWorkplace\obj\Debug\ClassroomTeachersWorkplace.g.resources
+G:\GitHub\The-classroom-teacher-s-automated-workplace\Program\ClassroomTeachersWorkplace\ClassroomTeachersWorkplace\obj\Debug\ClassroomTeachersWorkplace.Properties.Resources.resources
+G:\GitHub\The-classroom-teacher-s-automated-workplace\Program\ClassroomTeachersWorkplace\ClassroomTeachersWorkplace\obj\Debug\ClassroomTeachersWorkplace.csproj.GenerateResource.cache
+G:\GitHub\The-classroom-teacher-s-automated-workplace\Program\ClassroomTeachersWorkplace\ClassroomTeachersWorkplace\obj\Debug\ClassroomTeachersWorkplace.csproj.CoreCompileInputs.cache
+G:\GitHub\The-classroom-teacher-s-automated-workplace\Program\ClassroomTeachersWorkplace\ClassroomTeachersWorkplace\obj\Debug\ClassroomTeachersWorkplace.csproj.CopyComplete
+G:\GitHub\The-classroom-teacher-s-automated-workplace\Program\ClassroomTeachersWorkplace\ClassroomTeachersWorkplace\obj\Debug\ClassroomTeachersWorkplace.exe
+G:\GitHub\The-classroom-teacher-s-automated-workplace\Program\ClassroomTeachersWorkplace\ClassroomTeachersWorkplace\obj\Debug\ClassroomTeachersWorkplace.pdb

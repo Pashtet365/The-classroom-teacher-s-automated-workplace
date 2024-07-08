@@ -1,0 +1,267 @@
+-----------------ТЕКУЩАЯ БД-----------------
+
+CREATE TABLE [dbo].[Предметы] (
+    [id_предмета] INT           IDENTITY (1, 1) NOT NULL,
+    [название]    NVARCHAR (50) NOT NULL,
+    PRIMARY KEY CLUSTERED ([id_предмета] ASC)
+);
+
+CREATE TABLE [dbo].[Отметки] (
+    [id_отметки]   INT  IDENTITY (1, 1) NOT NULL,
+    [id_учащегося] INT  NOT NULL,
+    [id_предмета]  INT  NOT NULL,
+    [отметка]      INT  NOT NULL,
+    [дата]         DATE NOT NULL,
+    PRIMARY KEY CLUSTERED ([id_отметки] ASC),
+    CONSTRAINT [FK_Отметки_Учащийся] FOREIGN KEY ([id_учащегося]) REFERENCES [dbo].[Учащийся] ([id_учащегося]),
+    CONSTRAINT [FK_Отметки_Предметы] FOREIGN KEY ([id_предмета]) REFERENCES [dbo].[Предметы] ([id_предмета])
+);
+
+CREATE TABLE [dbo].[Учащийся] (
+    [id_учащегося]           INT           IDENTITY (1, 1) NOT NULL,
+    [фио]                    NVARCHAR (50) NOT NULL,
+    [телефон]                NVARCHAR (50) NOT NULL,
+	[дата_рождения]          DATE NOT NULL,
+    [соц_бытовые_условия]    NVARCHAR (50) NOT NULL,
+    [материальное_состояние] NVARCHAR (50) NOT NULL,
+    [трудности_в_учёбе]      NVARCHAR (50) NOT NULL,
+    [состояние_на_учёте]     NVARCHAR (50) NOT NULL,
+    [нарушение_общения]      NVARCHAR (50) NOT NULL,
+    PRIMARY KEY CLUSTERED ([id_учащегося] ASC)
+);
+
+CREATE TABLE [dbo].[Пропуски] (
+    [id_пропуска]      INT  IDENTITY (1, 1) NOT NULL,
+    [id_учащегося]     INT  NOT NULL,
+    [количество_часов] INT  NOT NULL,
+    [дата]             DATE NOT NULL,
+    PRIMARY KEY CLUSTERED ([id_пропуска] ASC),
+    CONSTRAINT [FK_Пропуски_Учащийся] FOREIGN KEY ([id_учащегося]) REFERENCES [dbo].[Учащийся] ([id_учащегося])
+);
+
+CREATE TABLE [dbo].[Справка] (
+    [id_справки]   INT           IDENTITY (1, 1) NOT NULL,
+    [id_учащегося] INT           NOT NULL,
+    [дата_начала]  DATE          NOT NULL,
+    [дата_конца]   DATE          NOT NULL,
+    [вид_справки]  NVARCHAR (50) NOT NULL,
+    PRIMARY KEY CLUSTERED ([id_справки] ASC),
+    CONSTRAINT [FK_Справка_Учащийся] FOREIGN KEY ([id_учащегося]) REFERENCES [dbo].[Учащийся] ([id_учащегося])
+);
+
+CREATE TABLE [dbo].[Родители] (
+    [id_родителя]  INT           IDENTITY (1, 1) NOT NULL,
+    [id_учащегося] INT           NOT NULL,
+    [фио]          NVARCHAR (50) NOT NULL,
+    [пол]          NVARCHAR (50) NOT NULL,
+	[дата_рождения]          DATE NOT NULL,
+    PRIMARY KEY CLUSTERED ([id_родителя] ASC),
+    CONSTRAINT [FK_Родители_Учащийся] FOREIGN KEY ([id_учащегося]) REFERENCES [dbo].[Учащийся] ([id_учащегося])
+);
+
+CREATE TABLE [dbo].[Собрание] (
+    [id_собрания] INT           IDENTITY (1, 1) NOT NULL,
+    [id_родителя] INT           NOT NULL,
+    [дата]        DATE          NOT NULL,
+    [тема]        NVARCHAR (50) NOT NULL,
+    PRIMARY KEY CLUSTERED ([id_собрания] ASC),
+    CONSTRAINT [FK_Собрание_Родители] FOREIGN KEY ([id_родителя]) REFERENCES [dbo].[Родители] ([id_родителя])
+);
+
+
+CREATE TABLE [dbo].[Класс] (
+    [id_класса]                  INT           IDENTITY (1, 1) NOT NULL,
+    [наименование]               NVARCHAR (50) NOT NULL,
+    [дата_последнего_обновления] DATE          NULL,
+    PRIMARY KEY CLUSTERED ([id_класса] ASC)
+);
+
+Индексация таблиц:
+Предметы - 0
+Отметки - 1
+Учащийся - 2
+Пропуски - 3
+Справки - 4
+Родители - 5
+Собрание - 6
+
+Фильтрация:
+textbox - 0
+firstdate - 1
+lastdate - 2
+button - 3
+
+Справки:
+Протокол родительского собрания - 0
+Ведомость успеваемости - 1
+Ведомость посещяемости - 2
+Справка - 3
+
+Заполнение данными:
+
+-- Заполнение таблицы Предметы
+INSERT INTO [dbo].[Предметы] ([название]) VALUES (N'Математика');
+INSERT INTO [dbo].[Предметы] ([название]) VALUES (N'Физика');
+INSERT INTO [dbo].[Предметы] ([название]) VALUES (N'История');
+INSERT INTO [dbo].[Предметы] ([название]) VALUES (N'Литература');
+
+-- Заполнение таблицы Учащийся
+INSERT INTO [dbo].[Учащийся] ([фио], [телефон], [дата_рождения], [соц_бытовые_условия], [материальное_состояние], [трудности_в_учёбе], [состояние_на_учёте], [нарушение_общения]) 
+VALUES (N'Иванов Иван Иванович', '123-456-789', '2005-02-10', N'нормальные', N'хорошее', N'нет', N'на учёте', N'нет');
+INSERT INTO [dbo].[Учащийся] ([фио], [телефон], [дата_рождения], [соц_бытовые_условия], [материальное_состояние], [трудности_в_учёбе], [состояние_на_учёте], [нарушение_общения]) 
+VALUES (N'Петров Пётр Петрович', '987-654-321', '2006-05-15', N'плохие', N'плохое', N'да', N'не на учёте', N'нет');
+INSERT INTO [dbo].[Учащийся] ([фио], [телефон], [дата_рождения], [соц_бытовые_условия], [материальное_состояние], [трудности_в_учёбе], [состояние_на_учёте], [нарушение_общения]) 
+VALUES (N'Сидоров Сидор Сидорович', '111-222-333', '2007-09-20', N'хорошие', N'отличное', N'нет', N'на учёте', N'нет');
+
+-- Заполнение таблицы Отметки
+INSERT INTO [dbo].[Отметки] ([id_учащегося], [id_предмета], [отметка], [дата]) VALUES (1, 1, 5, '2024-05-01');
+INSERT INTO [dbo].[Отметки] ([id_учащегося], [id_предмета], [отметка], [дата]) VALUES (1, 2, 4, '2024-05-01');
+INSERT INTO [dbo].[Отметки] ([id_учащегося], [id_предмета], [отметка], [дата]) VALUES (2, 1, 3, '2024-05-02');
+INSERT INTO [dbo].[Отметки] ([id_учащегося], [id_предмета], [отметка], [дата]) VALUES (2, 2, 4, '2024-05-02');
+INSERT INTO [dbo].[Отметки] ([id_учащегося], [id_предмета], [отметка], [дата]) VALUES (3, 1, 5, '2024-05-03');
+INSERT INTO [dbo].[Отметки] ([id_учащегося], [id_предмета], [отметка], [дата]) VALUES (3, 2, 4, '2024-05-03');
+
+-- Заполнение таблицы Пропуски
+INSERT INTO [dbo].[Пропуски] ([id_учащегося], [количество_часов], [дата]) VALUES (1, 3, '2024-05-04');
+INSERT INTO [dbo].[Пропуски] ([id_учащегося], [количество_часов], [дата]) VALUES (2, 5, '2024-05-05');
+INSERT INTO [dbo].[Пропуски] ([id_учащегося], [количество_часов], [дата]) VALUES (3, 2, '2024-05-06');
+
+-- Заполнение таблицы Справка
+INSERT INTO [dbo].[Справка] ([id_учащегося], [дата_начала], [дата_конца], [вид_справки]) VALUES (1, '2024-05-01', '2024-05-05', N'Заявление');
+INSERT INTO [dbo].[Справка] ([id_учащегося], [дата_начала], [дата_конца], [вид_справки]) VALUES (2, '2024-05-02', '2024-05-06', N'Справка об отсутствии');
+INSERT INTO [dbo].[Справка] ([id_учащегося], [дата_начала], [дата_конца], [вид_справки]) VALUES (3, '2024-05-03', '2024-05-07', N'Заключение');
+
+-- Заполнение таблицы Родители
+INSERT INTO [dbo].[Родители] ([id_учащегося], [фио], [пол], [дата_рождения]) VALUES (1, N'Иванова Мария Ивановна', N'Женский', '1980-01-01');
+INSERT INTO [dbo].[Родители] ([id_учащегося], [фио], [пол], [дата_рождения]) VALUES (2, N'Петров Алексей Владимирович', N'Мужской', '1975-03-05');
+INSERT INTO [dbo].[Родители] ([id_учащегося], [фио], [пол], [дата_рождения]) VALUES (3, N'Сидорова Елена Петровна', N'Женский', '1982-10-15');
+
+
+
+
+
+Текущий вывод таблиц:
+
+
+
+//предметы - 1
+        private void menuTableItems_Click(object sender, RoutedEventArgs e)
+        {
+            documentsMenu.Visibility = Visibility.Collapsed;
+            documentsMenu.Items.Clear();
+            DatabaseConnection dbConnection = new DatabaseConnection();
+            string query = "SELECT id_предмета AS ID, название AS Название FROM Предметы";
+            LoadData(dbConnection, query);
+            dataGridForm.Columns[0].Visibility = Visibility.Hidden;
+            tableIndex = 1;
+        }
+
+        //отметки - 2
+        private void menuTableMarks_Click(object sender, RoutedEventArgs e)
+        {
+            documentsMenu.Visibility = Visibility.Collapsed;
+            documentsMenu.Items.Clear();
+            DatabaseConnection dbConnection = new DatabaseConnection();
+            string query = "SELECT o.id_отметки AS ID, " +
+                           "u.фио AS 'ФИО Учащегося', " +
+                           "p.название AS 'Название предмета', " +
+                           "o.отметка AS Отметка, " +
+                           "FORMAT(o.дата, 'dd.MM.yyyy') AS Дата " +
+                           "FROM Отметки o " +
+                           "INNER JOIN Учащийся u ON o.id_учащегося = u.id_учащегося " +
+                           "INNER JOIN Предметы p ON o.id_предмета = p.id_предмета";
+            LoadData(dbConnection, query);
+            dataGridForm.Columns[0].Visibility = Visibility.Hidden;
+            tableIndex = 2;
+        }
+
+        //учащиеся - 3
+        private void menuTableStudent_Click(object sender, RoutedEventArgs e)
+        {
+            documentsMenu.Visibility = Visibility.Collapsed;
+            documentsMenu.Items.Clear();
+            DatabaseConnection dbConnection = new DatabaseConnection();
+            string query = "SELECT id_учащегося AS ID, " +
+                           "фио AS 'ФИО учащегося', " +
+                           "телефон AS Телефон, " +
+                           "FORMAT(дата_рождения, 'dd.MM.yyyy') AS 'Дата рождения', " +
+                           "соц_бытовые_условия AS 'Социальные и бытовые условия', " +
+                           "материальное_состояние AS 'Материальное состояние', " +
+                           "трудности_в_учёбе AS 'Трудности в учебе', " +
+                           "состояние_на_учёте AS 'Состояние на учете', " +
+                           "нарушение_общения AS 'Нарушение общения' " +
+                           "FROM Учащийся";
+            LoadData(dbConnection, query);
+            dataGridForm.Columns[0].Visibility = Visibility.Hidden;
+            tableIndex = 3;
+        }
+
+        //пропуски - 4
+        private void menuTableSkip_Click(object sender, RoutedEventArgs e)
+        {
+            documentsMenu.Visibility = Visibility.Collapsed;
+            documentsMenu.Items.Clear();
+            DatabaseConnection dbConnection = new DatabaseConnection();
+            string query = "SELECT Пропуски.id_пропуска AS ID, " +
+                           "Учащийся.фио AS 'ФИО учащегося', " +
+                           "Пропуски.количество_часов AS 'Количество часов', " +
+                           "FORMAT(Пропуски.дата, 'dd.MM.yyyy') AS 'Дата' " +
+                           "FROM Пропуски " +
+                           "INNER JOIN Учащийся ON Пропуски.id_учащегося = Учащийся.id_учащегося";
+            LoadData(dbConnection, query);
+            dataGridForm.Columns[0].Visibility = Visibility.Hidden;
+            tableIndex = 4;
+        }
+
+        //справки - 5
+        private void menuTableLisainces_Click(object sender, RoutedEventArgs e)
+        {
+            documentsMenu.Visibility = Visibility.Collapsed;
+            documentsMenu.Items.Clear();
+            DatabaseConnection dbConnection = new DatabaseConnection();
+            string query = "SELECT Справка.id_справки AS ID, " +
+                           "Учащийся.фио AS 'ФИО учащегося', " +
+                           "FORMAT(Справка.дата_начала, 'dd.MM.yyyy') AS 'Дата начала', " +
+                           "FORMAT(Справка.дата_конца, 'dd.MM.yyyy') AS 'Дата конца', " +
+                           "Справка.вид_справки AS 'Вид справки' " +
+                           "FROM Справка " +
+                           "INNER JOIN Учащийся ON Справка.id_учащегося = Учащийся.id_учащегося";
+            LoadData(dbConnection, query);
+            dataGridForm.Columns[0].Visibility = Visibility.Hidden;
+            tableIndex = 5;
+        }
+
+        //родители - 6
+        private void menuTableParents_Click(object sender, RoutedEventArgs e)
+        {
+            documentsMenu.Visibility = Visibility.Collapsed;
+            documentsMenu.Items.Clear();
+            DatabaseConnection dbConnection = new DatabaseConnection();
+            string query = "SELECT Родители.id_родителя AS ID, " +
+                           "Учащийся.фио AS 'ФИО учащегося', " +
+                           "Родители.фио AS 'ФИО родителя', " +
+                           "Родители.пол AS Пол, " +
+                           "FORMAT(Родители.дата_рождения, 'dd.MM.yyyy') AS 'Дата рождения' " +
+                           "FROM Родители " +
+                           "INNER JOIN Учащийся ON Родители.id_учащегося = Учащийся.id_учащегося";
+            LoadData(dbConnection, query);
+            dataGridForm.Columns[0].Visibility = Visibility.Hidden;
+            tableIndex = 6;
+        }
+
+        //собрания - 7
+        private void menuTableEvents_Click(object sender, RoutedEventArgs e)
+        {
+            documentsMenu.Visibility = Visibility.Collapsed;
+            documentsMenu.Items.Clear();
+            DatabaseConnection dbConnection = new DatabaseConnection();
+            string query = "SELECT Собрание.id_собрания AS ID, " +
+                           "Родители.фио AS 'ФИО родителя', " +
+                           "FORMAT(Собрание.дата, 'dd.MM.yyyy') AS 'Дата', " +
+                           "Собрание.тема AS 'Тема' " +
+                           "FROM Собрание " +
+                           "INNER JOIN Родители ON Собрание.id_родителя = Родители.id_родителя";
+            LoadData(dbConnection, query);
+            dataGridForm.Columns[0].Visibility = Visibility.Hidden;
+            tableIndex = 7;
+        }

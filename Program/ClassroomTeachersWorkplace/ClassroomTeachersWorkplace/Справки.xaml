@@ -1,0 +1,18 @@
+﻿<Window x:Class="ClassroomTeachersWorkplace.Справки"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ClassroomTeachersWorkplace"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        mc:Ignorable="d"
+        Title="Добавление справки" Height="300" Width="300" Icon="/MainIcon.png" WindowStartupLocation="CenterScreen" HorizontalAlignment="Center" VerticalAlignment="Center" WindowStyle="ToolWindow" ResizeMode="NoResize" Closed="Window_Closed">
+    <Grid>
+        <Label x:Name="mainLabel" Content="Добавление" HorizontalAlignment="Center" Margin="0,35,0,0" VerticalAlignment="Top" FontSize="24" FontWeight="Bold"/>
+        <ComboBox HorizontalAlignment="Center" x:Name="comboStudent" Width="250" materialDesign:HintAssist.Hint="Выберите учащегося" Style="{StaticResource MaterialDesignComboBox}" Margin="0,80,0,0" VerticalAlignment="Top"/>
+        <DatePicker x:Name="pickerStartDate" HorizontalAlignment="Center" Margin="0,110,0,0" VerticalAlignment="Top" Width="250" Style="{StaticResource MaterialDesignDatePicker}" materialDesign:HintAssist.Hint="Выберите начальную дату"/>
+        <DatePicker x:Name="pickerLastDate" HorizontalAlignment="Center" Margin="0,142,0,0" VerticalAlignment="Top" Width="250" Style="{StaticResource MaterialDesignDatePicker}" materialDesign:HintAssist.Hint="Выберите конечную дату"/>
+        <Button x:Name="mainButton" Content="Добавить" HorizontalAlignment="Center" Margin="0,202,0,0" VerticalAlignment="Top" Width="250" Click="mainButton_Click" Cursor="Hand"/>
+        <ComboBox HorizontalAlignment="Center" x:Name="comboVidSpravky" Width="250" materialDesign:HintAssist.Hint="Выберите вид справки" Style="{StaticResource MaterialDesignComboBox}" Margin="0,172,0,0" VerticalAlignment="Top"/>
+    </Grid>
+</Window>
